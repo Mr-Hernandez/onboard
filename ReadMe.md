@@ -1,3 +1,6 @@
+THIS IS AN OLD README AND UNTIL THIS LINE IS REMOVED JUST IGNORE IT.
+I MIGHT USE SOME OF IT LATER SO I'M LEAVING IT UP FOR NOW.
+
 This project is from the "Baremetal" section of the Fastbit Embedded Brain 
 Academy course found on Udemy and youtube.
 

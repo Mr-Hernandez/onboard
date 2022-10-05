@@ -17,6 +17,8 @@ SECTIONS
         _etext = .;
     }> FLASH
 
+	_la_data = LOADADDR(.data);
+
     .data :
     {
         _sdata = .;

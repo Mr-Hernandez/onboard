@@ -1,7 +1,7 @@
 CC=arm-none-eabi-gcc
 MACH=cortex-m4
 MAIN=main
-CFLAGS= -g -c -mcpu=$(MACH) -mthumb -std=gnu11 -Wall -O0
+CFLAGS= -g -c -mcpu=$(MACH) -mthumb -std=gnu11 -Wall -O0 -IDrivers/Inc -I.
 LDFLAGS= -nostdlib -T stm32_ls.ld -Wl,-Map=final.map
 
 

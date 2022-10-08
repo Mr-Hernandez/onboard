@@ -1,0 +1,10 @@
+projectfiles/*
+OldTestSource/*
+*.elf
+*.map
+*.o
+.accessToken
+oldmain.c
+.cache/*
+compile_commands.json
+

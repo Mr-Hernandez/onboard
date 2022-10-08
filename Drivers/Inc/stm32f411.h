@@ -750,16 +750,16 @@ typedef struct{
 
 
 
-
-//#include "stm32f4xx_gpio_driver.h"
-//#include "stm32f4xx_spi_driver.h"
+// Includes, makefile should use -I option to note Drivers/Inc search target
+#include "stm32f4xx_gpio_driver.h"
+#include "stm32f4xx_spi_driver.h"
 //#include "stm32f4xx_i2c_driver.h"
 //#include "stm32f4xx_usart_driver.h"
-//#include "stm32f411_pwm_driver.h"
-//#include "stm32f4xx_tim_driver.h"
-//#include "nRF24L01.h"
+//#include "stm32f411_pwm_driver.h" // combined with tim driver and used tim driver name
+#include "stm32f4xx_tim_driver.h"
+#include "nRF24L01.h"
 
-#include "Drivers/Inc/stm32f4xx_gpio_driver.h"
+//#include "Drivers/Inc/stm32f4xx_gpio_driver.h"
 //#include "stm32f4xx_spi_driver.h"
 //#include "stm32f4xx_i2c_driver.h"
 //#include "stm32f4xx_usart_driver.h"

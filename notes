@@ -11,3 +11,6 @@ j
 - You can set priority of irqnumber here
 - create the interrupt function to overtake the weak startup function
 - clear corresponding pending bit in EXTI->PR in the function call
+
+ADDING FREERTOS NOW
+

@@ -1,1 +1,13 @@
 I think I will try to implement some mems from on board the stm32 device.
+
+To set up an interrupt do the following
+- Set EXTI's FTSR or RTSR for falling, rising, or both edge detection
+NOTE: what if EXTI line isn't used, say spi, or i2c and such.
+- Enable SYSCFG clock
+- set SYSCFG's EXTICR to corresponding GPIO port
+- set EXTI 's IMR to enable interrupt on pin number
+j
+- set NVIC_ISERx to coressponding IRQ number
+- You can set priority of irqnumber here
+- create the interrupt function to overtake the weak startup function
+- clear corresponding pending bit in EXTI->PR in the function call
